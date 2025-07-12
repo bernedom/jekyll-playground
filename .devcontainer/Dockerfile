@@ -12,4 +12,6 @@ RUN groupadd -g 1000 builder && \
     echo "builder ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/builder && \
     chmod 0440 /etc/sudoers.d/builder
 
-RUN bundler install
+ENV GEM_HOME /home/builder/.gem
+
+#RUN bundler install
