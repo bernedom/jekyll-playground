@@ -1,7 +1,7 @@
 FROM ruby:3.4.4
 
 RUN gem update bundler && \
-    gem install bundler jekyll
+    gem install bundler 
 
 
 RUN apt-get update && \
