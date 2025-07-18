@@ -7,6 +7,17 @@
   dropdown:
     - name: Workshops
       link: /services/workshops/
+- name: Variante Services
+  link: /services_alt/
+  dropdown:
+    - name: Workshops
+      link: /services_alt/workshops/
+    - name: Software Delivery Consulting
+      link: /services_alt/software-delivery-consulting/
+    - name: CMake Expertise
+      link: /services_alt/cmake-expertise/
+    - name: C++ Modernization
+      link: /services_alt/cpp-modernization/
 - name: CMake Best Practices
   link: /cmake-best-practices/
 - name: About
