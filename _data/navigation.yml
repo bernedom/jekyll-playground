@@ -1,0 +1,17 @@
+- name: Blog
+  link: /blog/
+- name: Services
+  link: /services/
+  dropdown:
+    - name: Workshops
+      link: /services/workshops/
+- name: CMake Best Practices
+  link: /cmake-best-practices/
+- name: About
+  link: /about/
+  dropdown:
+    - name: About
+      link: /about
+    - name: Privacy Policy
+      link: /about/privacy
+    
