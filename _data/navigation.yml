@@ -1,3 +1,5 @@
+- name: Variante Home
+  link: /alternate-index/
 - name: Blog
   link: /blog/
 - name: Services
